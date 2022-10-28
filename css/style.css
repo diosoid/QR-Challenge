@@ -1,0 +1,55 @@
+
+
+.contenedor {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedor .tarjeta {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 300px;  
+}
+
+img {
+    width: 90%;
+    border-radius: 15px;
+    margin: 5%;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    
+      
+}
+
+.subtitle {    
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+
+}
+
+.attribution {
+     font-size: 11px;
+     text-align: center;
+     margin: 5%;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
